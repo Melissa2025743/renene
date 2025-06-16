@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>PROYECTO DEL AREA TECNICA 2024-2025</title>
+    <style>
+        body {
+            background-color: #00FFFF;
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            text-transform: uppercase;
+            position: relative;
+        }
+
+        .titulo-institucion {
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+            color: #4b0082;
+            margin-bottom: 20px;
+        }
+
+        .escudo {
+            display: block;
+            margin: 10px auto;
+            width: 150px;
+            height: auto;
+            border: 5px solid #ff66cc;
+            border-radius: 15px;
+            box-shadow: 0 0 15px #ff66cc;
+        }
+
+        .titulo {
+            border: 5px double purple;
+            padding: 20px;
+            text-align: center;
+            font-size: 28px;
+            font-weight: bold;
+            margin: 20px auto;
+            max-width: 700px;
+            background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .imagenjp {
+            display: block;
+            margin: 30px auto;
+            width: 200px;
+        }
+
+        .info-inferior {
+            position: absolute;
+            bottom: 10px;
+            left: 20px;
+            font-size: 18px;
+            color: #333;
+        }
+
+        .menu {
+            list-style-type: none;
+            margin: 2;
+            padding: 2;
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+        }
+
+        .menu > li {
+            position: relative;
+        }
+
+        .menu > li > a {
+            display: block;
+            padding: 15px 100px;
+            text-decoration: black;
+            font-weight: bold;
+            font-style: italic;
+            border-radius: 10px;
+        }
+
+        .menu > li:nth-child(1) > a {
+            background-color: #ff9999;
+            color: black;
+        }
+
+        .menu > li:nth-child(2) > a {
+            background-color: #66ccff;
+            color: black;
+        }
+
+        .menu > li:nth-child(3) > a {
+            background-color: #ff9999;
+            color: black;
+        }
+
+        .menu > li:nth-child(4) > a {
+            background-color: #66ccff;
+            color: black;
+        }
+
+        .menu > li:nth-child(5) > a {
+            background-color: #ff9999;
+        }
+
+        .menu > li:nth-child(6) > a {
+            background-color: #66ccff;
+            color: black;
+        }
+
+        .submenu {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 5px;
+            background-color: yellow;
+            min-width: 160px;
+            z-index: 10;
+        }
+
+        .submenu a {
+            padding: 15px 16px;
+            color: black;
+            display: block;
+            text-align: left;
+        }
+
+        .submenu a:hover {
+            background-color: gold;
+        }
+
+        .menu li:hover .submenu {
+            display: block;
+        }
+
+        .datos-finales {
+            text-align: center;
+            margin-top: 80px;
+            font-size: 20px;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Título Institución -->
+    <div class="titulo-institucion">UNIDAD EDUCATIVA "NICOLAS INFANTE DÍAZ"</div>
+
+    <!-- Escudo centrado -->
+    <img src="escu.jpg" alt="Escudo" class="escudo">
+
+    <!-- Título del proyecto -->
+    <div class="titulo">
+        PROYECTO DEL ÁREA TÉCNICA INFORMATICA 2025 - 2026
+    </div>
+
+    <!-- Imagen JP centrada -->
+    <p><center><img src="Jp.Gif" alt="Jp" class="imagenjp"></center></p>
+
+    <!-- Menú desplegable -->
+    <div class="navbar">
+        <ul class="menu">
+            <li>
+                <a href="#">Diseño Web</a>
+                <ul class="submenu">
+                    <li><a href="investigacion.html.html">1er Trimestre</a></li>
+                    <li><a href="#">2do Trimestre</a></li>
+                    <li><a href="#">3er Trimestre</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Sistemas Operativos y Redes</a>
+                <ul class="submenu">
+                    <li><a href="#">1er Trimestre</a></li>
+                    <li><a href="#">2do Trimestre</a></li>
+                    <li><a href="#">3er Trimestre</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Soporte Técnico</a>
+                <ul class="submenu">
+                    <li><a href="#">1er Trimestre</a></li>
+                    <li><a href="#">2do Trimestre</a></li>
+                    <li><a href="#">3er Trimestre</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Programación y Base de Datos</a>
+                <ul class="submenu">
+                    <li><a href="#">1er Trimestre</a></li>
+                    <li><a href="#">2do Trimestre</a></li>
+                    <li><a href="#">3er Trimestre</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Aplicaciones Ofimáticas</a>
+                <ul class="submenu">
+                    <li><a href="#">1er Trimestre</a></li>
+                    <li><a href="#">2do Trimestre</a></li>
+                    <li><a href="#">3er Trimestre</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">FOL</a>
+                <ul class="submenu">
+                    <li><a href="#">1er Trimestre</a></li>
+                    <li><a href="#">2do Trimestre</a></li>
+                    <li><a href="#">3er Trimestre</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+  <!-- Datos finales centrados -->
+<div class="datos-finales">
+    ALUMNA:<br>
+    RENESMEE NOEMI LASCANO<br>
+    DOCENTE:<br>
+    LCDA. TANIA VELEZ<br>
+    CURSO:<br>
+    3ERO "N" INF.
+</div>
+
+
+</body>
+</html>
